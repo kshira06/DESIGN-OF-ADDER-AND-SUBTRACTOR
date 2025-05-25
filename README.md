@@ -58,9 +58,7 @@ Borrow out = A'Bin + A'B + BBin
 5. For different input combinations generate the timing diagram.
 
 **Program:**
-
 ```
-
 module exp3(a,b,cin,bin,sum_a,cout,diff_s,borr_s);
 input a,b,cin,bin;
 output sum_a,cout,diff_s,borr_s;
@@ -69,7 +67,6 @@ assign cout=(a^b)&cin |(a&b);
 assign diff_s=a^b^bin;
 assign borr_s=(~a&~b&~bin)|(~a&b&~bin)|(~a&b&bin)|(a&b&bin);
 endmodule
-
 ```
 
 Developed by   : Kshira K  
@@ -77,12 +74,9 @@ Developed by   : Kshira K
 Register Number : 212224040166
 
 
-
-
 **RTL Schematic**
 
 ![image](https://github.com/user-attachments/assets/b8b3c061-0309-4ec2-b970-d39e25ff8585)
-
 
 **Output Timing Waveform**
 
