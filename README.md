@@ -76,13 +76,21 @@ Developed by   : Kshira K
 
 Register Number : 212224040166
 
+
+
+
 **RTL Schematic**
 
 ![image](https://github.com/user-attachments/assets/b8b3c061-0309-4ec2-b970-d39e25ff8585)
 
+
+
+
 **Output Timing Waveform**
 
 ![image](https://github.com/user-attachments/assets/04c3665d-dc53-44ac-9ae5-32fc45e23aae)
+
+
 
 **Result:**
 
